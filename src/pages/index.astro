@@ -1,10 +1,26 @@
 ---
+// Importamos el Layout
 import Layout from "../layouts/Layout.astro";
+
+// Importamos los componentes
+import Video from "../components/Video.astro";
+import Intro from "../components/Intro.astro";
+import Bento from "../components/Bento.astro";
+import PreFooter from "../components/PreFooter.astro";
+import Footer from "../components/Footer.astro";
 ---
 
 <Layout
   title="Premios ESLAND 2024 - Celebrando lo mejor del straming y los creadores de contenido"
-  description="Premios ESLAND 2024 - Celebrando lo mejor del straming y los creadores de contenido de Lationam, España.!Vota por tus creadores favoritos y exclusivos de Twitch, Youtube, kick y mas ...!"
+  description="Premios ESLAND 2024 - Celebrando lo mejor del straming y los creadores de contenido de Latino América, España y Andorra.!Vota por tus creadores favoritos y exclusivos de Twitch, Youtube, kick y mas ...!"
 >
-  <h1 class="text-red-600">Hola Mundo</h1>
+  <Video />
+
+  <!-- Contenido de la pagina -->
+  <main>
+    <Intro />
+    <Bento />
+    <PreFooter />
+    <Footer />
+  </main>
 </Layout>

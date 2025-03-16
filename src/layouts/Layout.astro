@@ -1,4 +1,7 @@
 ---
+// Importamos los componentes
+import Header from "../components/Header.astro";
+
 // Archivo de importacion de tailwind css
 import "../styles/global.css";
 
@@ -24,6 +27,7 @@ const { icons } = Astro.props;
     <title>{title}</title>
   </head>
   <body>
+    <Header />
     <slot />
   </body>
 </html>
