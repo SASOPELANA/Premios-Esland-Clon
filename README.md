@@ -5,4 +5,4 @@ Plataforma Premios Esland(Clon). Para aprendizaje y adquirir experiencia en desa
 Creada para fines didacticos y educativos.
 
 > [!WARNING]
-> La pagina wen no es oficial. Sitio web oficial [**premiosesland.com**](https://premiosesland.com/).
+> La pagina Web no es oficial. Sitio web oficial [**premiosesland.com**](https://premiosesland.com/).
