@@ -1,0 +1,114 @@
+---
+import BentoIten from "./BentoItem.astro";
+import montanaImg from "../../public/Img/mountain.webp";
+import alfombraImg from "../../public/Img/pistas.webp";
+import galaImg from "../../public/Img/grefg.webp";
+import laptopImg from "../../public/Img/laptop.webp";
+---
+
+<section
+  class={` 
+w-full max-w-[1400px] 
+grid grid-cols-10 auto-rows-[30rem] gap-4
+mx-auto p-20
+`}
+>
+  <!-- Imagen 1 -->
+  <BentoIten
+    class="col-span-10 md:col-span-4"
+    title="ANDORRA: EL CÉNIT DE LOS PREMIOS ESLAND"
+  >
+    <div
+      slot="image"
+      class="absolute left-0 top-0 bottom-0 w-full
+      h-full group-hover:scale-110 transition-scale duration-1000
+      ease-in-out opacity-90 bg-blend-luminosity
+      bg-cover bg-center bg-no-repeat bg-blue-950 -z-10"
+      style={`background-image: url(${montanaImg.src})`}
+    >
+    </div>
+
+    <p slot="content" class="max-w-xl">
+      Una nueva edición <strong>cargada de novedades</strong> y contenido, que empezará
+      varias semanas antes de la ansiada gala. <strong
+        >Directos especiales, colaboraciones, conciertos y mucho más</strong
+      > en lo que será una auténtica fiesta dedicada a la creación de contenido.
+    </p>
+  </BentoIten>
+
+  <!-- Imagen 2 -->
+  <BentoIten
+    class="col-span-10 md:col-span-6"
+    title="LA ALFOMBRA BLANCA"
+    subtitle="16 febrero de 2024"
+  >
+    <div
+      slot="image"
+      class="absolute left-0 top-0 bottom-0 w-full
+      h-full group-hover:scale-110 transition-scale duration-1000
+      ease-in-out opacity-90 bg-blend-luminosity
+      bg-cover bg-center bg-no-repeat bg-blue-950 -z-10"
+      style={`background-image: url(${alfombraImg.src})`}
+    >
+    </div>
+
+    <p slot="content" class="max-w-xl">
+      <strong>Uno de los días más esperados del año</strong> en la comunidad hispanohablante,
+      <strong> dos grandes hitos concentrados en un mismo directo.</strong> Una alfombra
+      por la que pasarán <strong>los mejores streamers del año</strong>,
+      luciendo sus mejores galas, momentos antes de saber si son los premiados.
+    </p>
+  </BentoIten>
+
+  <!-- Imagen 3 -->
+  <BentoIten
+    class="col-span-10 md:col-span-6"
+    title="LA GALA"
+    subtitle="17 febrero de 2024"
+  >
+    <div
+      slot="image"
+      class="absolute left-0 top-0 bottom-0 w-full
+      h-full group-hover:scale-110 transition-scale duration-1000
+      ease-in-out opacity-90 bg-blend-luminosity
+      bg-cover bg-center bg-no-repeat bg-blue-950 -z-10"
+      style={`background-image: url(${galaImg.src})`}
+    >
+    </div>
+
+    <p slot="content" class="max-w-xl">
+      Y una gala llena de emoción,<strong>
+        con la entrega de premios, conciertos de artistas internacionales, y una
+        gran cantidad de contenido</strong
+      > pensado exclusivamente para la comunidad de streaming hispanohablante.
+      <br />
+      <br />
+      No te lo pierdas.
+    </p>
+  </BentoIten>
+
+  <!-- Imagen 4 -->
+  <BentoIten
+    class="col-span-10 md:col-span-4"
+    title="DISFRUTA DEL REDDIT DE LA COMUNIDAD HISPANOHABLANTE"
+  >
+    <div
+      slot="image"
+      class="absolute left-0 top-0 bottom-0 w-full
+      h-full group-hover:scale-110 transition-scale duration-1000
+      ease-in-out opacity-90 bg-blend-luminosity
+      bg-cover bg-center bg-no-repeat bg-blue-950 -z-10"
+      style={`background-image: url(${laptopImg.src})`}
+    >
+    </div>
+
+    <p slot="content" class="max-w-xl">
+      Este año, el reddit no formará parte de las votaciones de los premios,
+      pero sí que <strong>formará parte de la comunidad</strong>. El subreddit
+      oficial de los Premios ESLAND está abierto para ti, para que compartas tus
+      clips, tus opiniones y para que <strong
+        >interactúes con toda la comunidad</strong
+      > streaming hispanohablante.
+    </p>
+  </BentoIten>
+</section>
