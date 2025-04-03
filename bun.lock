@@ -5,6 +5,7 @@
       "name": "premios-esland-clon",
       "dependencies": {
         "@fontsource-variable/onest": "^5.2.6",
+        "@justinribeiro/lite-youtube": "^1.7.1",
         "@tailwindcss/vite": "^4.0.14",
         "astro": "^5.5.2",
         "prettier": "^3.5.3",
@@ -128,6 +129,8 @@
     "@img/sharp-win32-x64": ["@img/sharp-win32-x64@0.33.5", "", { "os": "win32", "cpu": "x64" }, "sha512-MpY/o8/8kj+EcnxwvrP4aTJSWw/aZ7JIGR4aBeZkZw5B7/Jn+tY9/VNwtcoGmdT7GfggGIU4kygOMSbYnOrAbg=="],
 
     "@jridgewell/sourcemap-codec": ["@jridgewell/sourcemap-codec@1.5.0", "", {}, "sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ=="],
+
+    "@justinribeiro/lite-youtube": ["@justinribeiro/lite-youtube@1.7.1", "", {}, "sha512-nbasgHAmjw7g6zy8sK//nL7CQoJcBmvfBM3jWulKVJPRIhBHa6ZnHtQbMdd6TAukU3h0udZP09N8EEyLGWVysA=="],
 
     "@oslojs/encoding": ["@oslojs/encoding@1.1.0", "", {}, "sha512-70wQhgYmndg4GCPxPPxPGevRKqTIJ2Nh4OkiMWmDAVYsTQ+Ta7Sq+rPevXyXGdzr30/qZBnyOalCszoMxlyldQ=="],
 
