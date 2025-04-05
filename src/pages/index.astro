@@ -1,27 +1,5 @@
 ---
-// Importamos el Layout
-import Layout from "../layouts/Layout.astro";
-
-// Importamos los componentes
-import Video from "../components/Video.astro";
-import Intro from "../components/Intro.astro";
-import Bento from "../components/Bento.astro";
-import PreFooter from "../components/PreFooter.astro";
-import Footer from "../components/Footer.astro";
+import App from "../components/App.astro";
 ---
 
-<Layout
-  icons="/favicon.svg"
-  title="Premios ESLAND 2024 - Celebrando lo mejor del straming y los creadores de contenido"
-  description="Premios ESLAND 2024 - Celebrando lo mejor del straming y los creadores de contenido de Latino América, España y Andorra.!Vota por tus creadores favoritos y exclusivos de Twitch, Youtube, kick y mas ...!"
->
-  <Video />
-
-  <!-- Contenido de la pagina -->
-  <main>
-    <Intro />
-    <Bento />
-    <PreFooter />
-    <Footer />
-  </main>
-</Layout>
+<App />
